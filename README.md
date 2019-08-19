@@ -30,6 +30,7 @@ Playing the attached file and exploring metadata doesn't give any useful informa
 ![EasyEncoding.png](EasyEncoding.png)
 
 Here we see that the spectrogram is divided into parts. In every part we can distinguish 8 levels. If consider them as bits, then every spectrogram part is a byte. Lets try to assemble binary code from the spectrogram reading each part from top to bottom and considering the spectral lines as 0 and the gaps as 1 (I just guessed it...): ```01100110 01101100 01100001 01100111 01111011 01100010 01110010 01101111 01110111 01101110 01101001 01100101 01011111 01101001 01110011 01011111 01100001 01011111 01100111 01100101 01101110 01101001 01101111 01110011 01101001 01110100 01111001 01111101```
+
 Converted to ASCII: ```flag{brownie_is_a_geniosity}```
 
 ## 3. Dedication (forensics, 388)
