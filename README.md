@@ -1,5 +1,5 @@
 # RedpwnCTF-2019 writeup
-### Our team e.g. solved 16 tasks, but this writeup will contain only the most interesting from them
+### Our team e.g. solved 16 tasks, but this writeup will contain only the most interesting of them
 
 ## 1. msb (forensics, 50)
 
