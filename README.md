@@ -12,6 +12,7 @@ Hint: Only one channel is correct. Also, I like doing things top down.
 ### Solution:
 
 MSB (Most Significant Bit) and LSB (Least Significant Bit) are steganography technics (https://en.wikipedia.org/wiki/Bit_numbering)
+
 I simply used Stegsolve to extract data from it. After a few attempts I got the output:
 
 ![lol_extracted.png](lol_extracted.png)
