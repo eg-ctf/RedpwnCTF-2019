@@ -107,9 +107,10 @@ Sometimes pytesseract failed and recognized short passwords incorrectly (interes
 
 ![dedication_flag.png](dedication_flag.png)
 
-## 3. Redpwn Gets Bamboozled (forensics, 428)
+## 4. Redpwn Gets Bamboozled (forensics, 428)
 
 RedpwnCTF finally did it: they made the perfect flag. Unfortunately, right before they performed their typical encryption of military-grade ROT156, they accidentally put it through an unnecessarily convoluted encoding scheme. Of course, while attempting to decode it, they ended up deleting the program and any remaining traces! Now, they have forgotten the flag with no way to recover it. It is up to you to get back RedpwnCTF's Magnum Opus and save redpwn. Heck, we'll even let you keep it. (Enclose flag{} around the flag.)
+![data.txt](data.txt)
 
 ### Solution:
 
@@ -138,7 +139,8 @@ im.save("output.png")
 ```
 Now we have an output image:
 
-![output.png](https://raw.githubusercontent.com/eg-ctf/RedpwnCTF-2019/master/output.png)
+![output.png](output.png)
 
 There are gray circles of different shades on this image. If open the image in any image editor (e.g. GIMP) and look at the codes of the colors of circles one by one we can see: 666666, dddddd, 777777, 999999... It gives us the hex code: ```6d 79 5f 62 33 35 74 5f 66 6c 34 67 5f 79 33 74```
+
 Convert it to ascii, and the flag is: ```my_b35t_fl4g_y3t```
